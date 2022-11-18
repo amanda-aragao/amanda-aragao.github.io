@@ -1,8 +1,32 @@
-
-h1{
+.titulo-nome{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
+    color: azure;
+    text-align: center;
 }
-p{
-    font-size: 50px;
+.parafrago{
+    font-size: 20px;
+background-color: #f5fbef;    
+color:#03132F;
+padding: 10px;
 }
+
+
+
+body{
+    background-color: #03132F;
+color:azure
+}
+
+
+div {
+    text-align: center;
+}
+
+.image{
+ border-radius: 100%;
+ }
+
+ h3{
+    text-align: center;
+ }
