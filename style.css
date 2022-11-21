@@ -1,32 +1,62 @@
-.titulo-nome{
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
-    color: azure;
-    text-align: center;
-}
-.parafrago{
-    font-size: 20px;
-background-color: #f5fbef;    
-color:#03132F;
-padding: 10px;
-}
-
-
-
 body{
-    background-color: #03132F;
-color:azure
+    background-color: #fbfff1;
 }
 
+.cabecalho{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 3px;
+    background-color: #03132F;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
 
-div {
-    text-align: center;
+.cabecalho div{
+margin-left: 50px;
+margin-top: 10px;;
+}
+
+.cabecalho div a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.cabecalho div a:hover{
+color: #6e0d25;
+}
+
+.cabecalho nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 100px;
+    font-size: 20px;
+ }
+
+.cabecalho nav ul a {
+text-decoration: none;
+color: azure;
+padding-top: 40px
+}
+
+.cabecalho nav ul a:hover {
+color :#6e0d25;
 }
 
 .image{
- border-radius: 100%;
- }
+    border-radius: 100%;
+    float:right;
+    padding-top: 50px;
+    padding-right: 50px ;
+}
 
- h3{
+.bem-vindo{
+    font-size: 50px;
     text-align: center;
- }
+ margin-top: 50px;
+ margin-bottom: 15px;
+}
+
